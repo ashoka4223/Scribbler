@@ -18,7 +18,7 @@ body {
     position: absolute;
 }
 
-.post-button {
+.post-button,.create-button {
     font-size: 16px;
     background: #CFB53B;
     color: #000000;
@@ -33,7 +33,10 @@ body {
     color: #fff;
     background: #3366cc;
 }
-
+.create-button:hover {
+    color: #fff;
+    background: #3366cc;
+}
 .new-post-modal-content {
     width: 80%;
 }
