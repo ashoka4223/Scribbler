@@ -3,7 +3,9 @@ function openSignupModal() {
 }
 
 function openSigninModal() {
-    document.getElementById('signInModal').style.display = 'block';
+    var a= document.getElementById('signInModal');
+    a.style.display = 'block';
+    a.value=a.defaultValue;
 }
 
 function closeModal() {
