@@ -11,23 +11,23 @@
 <body>
     <div class="header-container">
         <!-- header starts here -->
-        <div class="header">
+        <header>
             <div class="logo-container">
                 <p class="logo">ScriBBler</p>
                 <p class="logo-subheading">Explore, Imagine, Create</p>
             </div>
 
             <div>
-                <input class="header-button" type="button" onclick="openSignupModal()" value="Sign Up">
-                <input class="header-button" type="button" onclick="openSigninModal()" value="Sign In">
+                <input class="sign-up-button" type="button" onclick="openSignupModal()" value="Sign Up">
+                <input class="sign-in-button" type="button" onclick="openSigninModal()" value="Sign In">
             </div>
-        </div>
+        </header>
         <!-- header ends here -->
 
         <!-- body of homepage starts here -->
         <div class="post-buttons-container">
             <input class="post-button" type="button" onclick="displayAllPosts()" value="All Posts" />
-            <input class="post-button" type="button" onclick="createPost()" value="Create Post">
+            <input class="create-button" type="button" onclick="createPost()" value="Create Post">
         </div>
         <!-- body of homepage ends here -->
     </div>
@@ -44,7 +44,7 @@
             <hr class="modal-horizontal-rule">
             <form class="modal-form">
                 <label for="name" class="modal-label">Name</label>
-                <input type="text" class="modal-textbox" placeholder="Enter your name" name="name" required>
+                <input type="text" class="modal-textbox" placeholder="Enter your name" name="name"  required>
                 <label for="username" class="modal-label">Username</label>
                 <input type="text" class="modal-textbox" placeholder="Enter your username" name="username" required>
                 <label for="password" class="modal-label">Password</label>
