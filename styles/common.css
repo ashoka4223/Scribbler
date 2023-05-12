@@ -9,7 +9,7 @@ body {
     width: 100%;
 }
 
-.header {
+header {
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -35,7 +35,7 @@ body {
     margin: 0 0 0px 10px;
 }
 
-.header-button {
+.sign-up-button, .sign-in-button {
     width: 100px;
     padding: 10px;
     cursor: pointer;
